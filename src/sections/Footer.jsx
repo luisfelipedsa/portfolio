@@ -10,13 +10,16 @@ const Footer = () => {
         <div className="socials">
           {socialImgs.map((socialImg, index) => (
             <div key={index} className="icon">
-              <img src={socialImg.imgPath} alt="social icon" />
+              <a href="www.linkedin.com/in/luis-felipe-dos-santos-andrade-73756822a">
+                <img src={socialImg.imgPath} alt="social icon" />
+              </a>
             </div>
           ))}
         </div>
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            © {new Date().getFullYear()} Luis Felipe dos Santos Andrade. All rights reserved.
+            © {new Date().getFullYear()} Luis Felipe dos Santos Andrade. All
+            rights reserved.
           </p>
         </div>
       </div>
