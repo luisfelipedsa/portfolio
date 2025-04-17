@@ -148,7 +148,7 @@ const techStackIcons = [
 const expCards = [
   {
     review: "No professional experience YET ;-;.",
-    imgPath: "/images/exp1.png",
+    // imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
     date: "... - ...",
